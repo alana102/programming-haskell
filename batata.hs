@@ -15,3 +15,5 @@ instance Ord Batata where
     compare Tesoura Pedra = LT -- menor
     compare _ _ = GT -- casos em que é maior
     (>=) a b = (compare a b) == GT || (a==b)
+
+    
